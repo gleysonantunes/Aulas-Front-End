@@ -1,37 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outras Formatações</title>
+    <title>Listas</title>
 </head>
-
 <body>
-    <h1>Outras formatações</h1>
-    <h2>Código-fonte | Pré Formatado</h2>
-    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript</p>
-    <pre>
-        <code>
-    num = int(input('Digite um número:'))
-    if num %2 == 0:
-        print(f'O número {num} é PAR')
-    else:
-        print(f'O número {num} é IMPAR')
-    print('Fim do programa')
-        </code>
-    </pre>
-    <h2>Citações Simples</h2>
-    <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido</q></p>
-    <h2>Citações completas</h2>
-    <p>Como dizia o filósofo Piton:</p>
-    <blockquote cite = "https://www.youtube.com/watch?v=2rZmFz8fBVo&ab_channel=Semprequevoc%C3%AAleroscomentarioseuestareil%C3%A1">
-        Tudo na vida depende do quanto você quer comer alguem.
-    </blockquote>
-    <h2>Abreviações</h2>
-    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estotu adorando</p>
-    <h2>Texto invertido</h2>
-    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p>
-</body>
+    <h1>Trabalhando com listas</h1>
 
+    <h2>Listas ordenadas</h2>
+    <p>Podemos usar os "type":</p>    
+    <ul>
+        <li> 1 = 1, 2, 3
+        <li> A = A, B, C
+        <li> a = a, b, c
+        <li> I = I, II, III, IV
+        <li> i = i, ii, iii, iv
+    </ul>
+    <p>Também podemos usar o "start" que diz em que número a lista começa</p>
+    <p>Exemplo:</p>
+    <ol type="1" start="1">
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para a Faculdade</li>
+        <li>Voltar para casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
+    <h2>Listas não ordenadas</h2>
+    <p>Podemos usar os "type":</p>
+    <ul>
+        <li> disc
+        <li> circle
+        <li> square
+    </ul>
+    <p>Exemplo:</p>
+    <ul type = "square">
+        <li> Pão
+        <li> Leite
+        <li> Tomate
+        <li> Manteiga
+        <li> Arroz
+        <li> Feijão
+    </ul>
+</body>
 </html>
